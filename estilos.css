@@ -9,7 +9,7 @@ html, body {
     padding: 0;
 }
 body {
-    background: linear-gradient(to bottom, #fdd1d6 50px, #121212 300px);
+    background: linear-gradient(to bottom, #fdd1d6 50px, #121212 250px);
     background-size: cover;
 }
 .menu {
@@ -22,7 +22,7 @@ body {
     margin-top: 2px black solid;
 }
 #logo {
-    height: 81.5px;
+    height: 80px;
     width: 180px;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
@@ -39,6 +39,9 @@ body {
     font-weight: bold;
     font-size: 16px;
 }
+#uno:hover {
+    color: #1ed760;
+}
 #dos{
     color: white;
     grid-column: 4 / 5;
@@ -48,6 +51,9 @@ body {
     font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif;
     font-weight: bold;
 }
+#dos:hover{
+    color: #1ed760;
+}
 #tres{
     color: white;
     grid-column: 5 / 6;
@@ -56,6 +62,9 @@ body {
     align-self: center;
     font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif;
     font-weight: bold;
+}
+#tres:hover {
+        color: #1ed760;
 }
 #cuatro{
     color: #d9dadc;
@@ -68,6 +77,9 @@ body {
     border-left: 1px white solid;
     padding-left: 40px;
 }
+#cuatro:hover {
+    color: #1ed760;
+}
 #cinco{
     color: #d9dadc;
     grid-column: 7 / 8;
@@ -76,6 +88,9 @@ body {
     align-self: center;
     font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif; 
     font-weight: bold;
+}
+#cinco:hover {
+    color: #1ed760;
 }
 .parteflamenco {
     margin-left: 200px;
@@ -122,6 +137,10 @@ body {
     border: #ffd2d7 solid 1px;
     margin-right: 20px;
 }
+#boton1:hover {
+    transform: scale(1.05);
+    font-weight: bolder;
+}
 #boton2 {
     background-color: black;
     color: #ffffff;
@@ -134,6 +153,10 @@ body {
     border-radius: 40px;
     border: #ffffff solid 1px;
     margin-right: 150px;
+}
+#boton2:hover {
+    transform: scale(1.05);
+    font-weight: bolder;
 }
 #solopara {
     font-size: 11px;
@@ -439,25 +462,32 @@ position: relative;
         padding-right: 25px;
         padding-bottom: 15px;
         border-radius: 40px;
-        border: #ffd2d7 solid 1px;
         margin-right: 20px;
         width: 320px;
         align-items: center;
         justify-self: center;
         margin-left: 15px;
 }
+.botoncitos:hover {
+    transform: scale(1.05);
+    font-weight: bolder;
+}
 #botuno {
     background-color: #ffd2d7;
+    border: #ffd2d7 solid 1px;
 }
 #botdos {
-    background-color: #c4b1d4;;
+    background-color: #c4b1d4;
+    border: #c4b1d4 solid 1px;
 }
 #bottres {
-    background-color: #a5bbd1;
+    background-color: #ffc862;
+    border: #ffc862 solid 1px;
     margin-top: 55px;
 }
 #botcuatro {
     background-color: #a5bbd1;
+    border: #a5bbd1 solid 1px;
     margin-top: 60px;
 } 
 ul {
@@ -495,6 +525,9 @@ ul {
     color: #a7a78a;
     text-decoration: underline;
 }
+#condiciones_uno:hover {
+    font-weight: 700;
+}
 #letrasp {
     color: white;
     font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif;
@@ -520,6 +553,10 @@ ul {
 }
 #asistencia {
     text-decoration: underline;
+    color: white;
+}
+#asistencia:hover {
+    font-size: 16px;
 }
 #details {
     width: 80%;
@@ -543,8 +580,78 @@ details{
     font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif;
 }
 details:hover {
-    background-color:#242424;;
+    background-color:#242424;
 }
 .desple {
     padding: 25px;
+}
+#divi {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#foot {
+    background-color: #000000;
+    margin-top: 50px;
+    padding-top: 80px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+}
+.gris {
+    color: #919496;
+    font-weight: 750;
+    font-size: 12px;
+    font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif;
+    letter-spacing: 0.1em;
+    padding-bottom: 20px;
+}
+.nogris {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif;
+    font-weight: 750;
+    letter-spacing: 0.1em;
+    display: block;
+    row-gap: 150px;
+    padding-bottom: 15px;
+    text-decoration: none;
+}
+#logoult {
+    width:  180px;
+    height: 80px;
+}
+#redes {
+    width:  220px;
+    height: 80px;
+    margin-left: 150px;
+}
+#largo {
+    line-height: 1.5em;
+}
+.cont {
+    padding-top: 30px;
+}
+#maspeque {
+    width: 120px;
+    align-items: flex-end;
+}
+#espana{
+    float: right;
+}
+.final {
+    color: #8f8f8f;
+    text-decoration: none;
+    padding-right: 15px;
+    font-size: 10px;
+    font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif;
+    letter-spacing: 0.1em;
+}
+#spoty2024 {
+    float: right;
+}
+
+a:hover {
+    color: #1ed760;
 }
